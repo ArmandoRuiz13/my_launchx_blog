@@ -1,7 +1,7 @@
 ---
-title: "Título de tu blog post"
-date: 2022-03-01
+title: "Aprendizajes Node JS"
+date: 2022-04-21
 description: 'Descripción de tu blog post'
 ---
+Hola, estoy actualizando el post
 
-Hola este es un nuevo post
