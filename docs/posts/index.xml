@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://armandoruiz13.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aprendizajes Node JS</title>
-      <link>https://armandoruiz13.github.io/my_launchx_blog/posts/post_1/</link>
+      <link>https://armandoruiz13.github.io/my_launchx_blog/posts/nodejslarn/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://armandoruiz13.github.io/my_launchx_blog/posts/post_1/</guid>
+      <guid>https://armandoruiz13.github.io/my_launchx_blog/posts/nodejslarn/</guid>
       <description>Puntos importantes para empezar a trabajar Node JS -Tener actualizado todo lo descargable -Saber un poco de logica de la programacion -Conocer a detalle muchas funciones basicas que tiene Javascript, es un lenguaje facil de entender, o eso me a parecido en un principio -Es importante documentar y modular porque asi nuestros proyectos tienen un escalable mas grandey permite que trabajemos en equipos -Es importante saber usar Git y GitHub para empezar a tener una idea de la forma de resguardo de nuestro proyecto y su documentacion -Ahora debemos tener en cuenta que se deben hacer pruebas para presentar los proyectos -Considera hacer siempre pruebas unitarias *Escribir prueba que quieres modelar *Correr la prueba y verla fallar *Escribir el codigo que haga pasar esa prueba</description>
     </item>
     
