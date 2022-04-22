@@ -1,5 +1,5 @@
 ---
-title: 'Experiencias para la programacion'
+title: 'Progrmacion Experiencias'
 date: 2019-02-24
 menu:
   main:
