@@ -46,7 +46,7 @@ Para el oboarding creamos un repositorio en github el cual llamamos playbook don
 Todo lo visto es utilizando con common js
 
 
-###Semana 1
+### Semana 1
 
 En la semana se empezo utilizando un poco de lo que es JavaScript, un poco de historia y la forma de utlizacion de sistsxis basica para familiarizarnos con el lenguaje. La forma de utilizar objetos de JS funciones y modularizacion
 
@@ -61,7 +61,7 @@ Estas son algunas recomendaciones dadas para reforzar el uso de JS
  2. [Eloquent JS](https://eloquentjavascript.net/)
  3. [Rediscovering JS](https://pragprog.com/titles/ves6/rediscovering-javascript/)
                                                                             
-###Semana 2
+### Semana 2
 
 Empezamos viendo elementos basicos de JS, objetos de JS, y objetos, modularizacion nuevamente y lo importante que es hacer pruebas unitarias para los proyectos respondiendo a la pregunta Como sabes que tu software funciona? R - Porque se hicieron pruebas que demuestran que este funciona. Haciendo ver ahora lo importante que es la calidad de software para formar lo profesional que debe ser un developer, empezando viendo una forma de trabajo con pruebas que utilizamos en Node JS que es Jest: una plataforma desarrollada por facebook, istalando la dependencia facilmente con un comando en la terminal, ademas de la forma de inicializar un proyecto en node JS de igual forma con un comando en la terminal dandose asi una estructura basica para crear un proyecto que es la siguiente:
 
