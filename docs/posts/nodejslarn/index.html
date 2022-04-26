@@ -130,13 +130,14 @@ Para el oboarding creamos un repositorio en github el cual llamamos playbook don
 <ol>
 <li><a href="https://github.com/ArmandoRuiz13/playbook">Playbook</a></li>
 </ol>
+<p>Todo lo visto es utilizando con common js</p>
 <p>###Semana 1</p>
 <p>En la semana se empezo utilizando un poco de lo que es JavaScript, un poco de historia y la forma de utlizacion de sistsxis basica para familiarizarnos con el lenguaje. La forma de utilizar objetos de JS funciones y modularizacion</p>
 <p>Entre los puntos que se tienen que rescatar esta el saber que los archivos package.json son archivos que nos muestran que detras hay un archivo de JavaScript</p>
 <ul>
 <li>La forma de hacer ejecutar un codigo es con la ruta en la terminar <strong>node <!-- raw HTML omitted --></strong></li>
 <li>Para acceder a un objeto se hace con el nombre de la clase y con puntos para acceder al interior ejemplo &lt;pokemon.name&gt; imprimiendo el nombre</li>
-<li>para declarar una funcion se declara una constante de la siguiente forma &lt;  info (message) {Aqui va lo que hace la funcion}&gt;</li>
+<li>para declarar una funcion se declara una constante de la siguiente forma &lt;info (message) {Aqui va lo que hace la funcion}&gt;</li>
 <li>Para importar una clase se declara una constante con la igualdad requiere y la ruta como en este ejemplo &lt;const Pokemon = require('./pokemon')&gt;</li>
 <li>Param exportar un archivo JS se hace con la siguiente ruta &lt;module.export = clase (pokemon) en este caso
 Estas son algunas recomendaciones dadas para reforzar el uso de JS</li>
@@ -146,6 +147,43 @@ Estas son algunas recomendaciones dadas para reforzar el uso de JS</li>
 <li><a href="https://eloquentjavascript.net/">Eloquent JS</a></li>
 <li><a href="https://pragprog.com/titles/ves6/rediscovering-javascript/">Rediscovering JS</a></li>
 </ol>
+<p>###Semana 2</p>
+<p>Empezamos viendo elementos basicos de JS, objetos de JS, y objetos, modularizacion nuevamente y lo importante que es hacer pruebas unitarias para los proyectos respondiendo a la pregunta Como sabes que tu software funciona? R - Porque se hicieron pruebas que demuestran que este funciona. Haciendo ver ahora lo importante que es la calidad de software para formar lo profesional que debe ser un developer, empezando viendo una forma de trabajo con pruebas que utilizamos en Node JS que es Jest: una plataforma desarrollada por facebook, istalando la dependencia facilmente con un comando en la terminal, ademas de la forma de inicializar un proyecto en node JS de igual forma con un comando en la terminal dandose asi una estructura basica para crear un proyecto que es la siguiente:</p>
+<ul>
+<li>Crear carpeta inicial</li>
+<li>Iniciar Git
+<ul>
+<li>Git init</li>
+</ul>
+</li>
+<li>Iniciar proyecto NodeJS
+<ul>
+<li>npm install</li>
+</ul>
+</li>
+<li>Crear archivo en la carpeta principal .gitignore
+<ul>
+<li>Dentro escribir **/node_modules | los ** es para verificar que funcione en todas las rutas | el archivo modules no se versiona</li>
+</ul>
+</li>
+<li>Instalar Jest
+<ul>
+<li>install &ndash;save-dev Jest</li>
+</ul>
+</li>
+<li>Crear carpetas test y app en la ruta principal
+<ul>
+<li>Dentro van mas archivos como services, models, y en ellos van los archivos .js en el caso de app, y .test.js en el caso de test</li>
+</ul>
+</li>
+<li>Crear un archivo index.js</li>
+<li>En la carpeta package.json en el apartado scripts se necesitan cambiar los comandos
+<ul>
+<li>start: &ldquo;node index.js&rdquo;   &mdash;&gt; con esto en la terminar ejecuentando npm start se ejecuta el archivo index.js</li>
+<li>test: &ldquo;./node_modules/jest/bin/jest&rdquo; &mdash;&gt; al ejecutar npm test se ejecutarian las pruebas, actualmente e visto que funciona tambien (test: &ldquo;jest&rdquo;)</li>
+</ul>
+</li>
+</ul>
 
     </div>
   </div>
