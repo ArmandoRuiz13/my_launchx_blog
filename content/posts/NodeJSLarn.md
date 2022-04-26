@@ -43,6 +43,9 @@ Para el oboarding creamos un repositorio en github el cual llamamos playbook don
 
 1. [Playbook](https://github.com/ArmandoRuiz13/playbook)
 
+Todo lo visto es utilizando con common js
+
+
 ###Semana 1
 
 En la semana se empezo utilizando un poco de lo que es JavaScript, un poco de historia y la forma de utlizacion de sistsxis basica para familiarizarnos con el lenguaje. La forma de utilizar objetos de JS funciones y modularizacion
@@ -50,10 +53,30 @@ En la semana se empezo utilizando un poco de lo que es JavaScript, un poco de hi
 Entre los puntos que se tienen que rescatar esta el saber que los archivos package.json son archivos que nos muestran que detras hay un archivo de JavaScript
 - La forma de hacer ejecutar un codigo es con la ruta en la terminar **node </ruta>** 
 - Para acceder a un objeto se hace con el nombre de la clase y con puntos para acceder al interior ejemplo <pokemon.name> imprimiendo el nombre
-- para declarar una funcion se declara una constante de la siguiente forma <  info (message) {Aqui va lo que hace la funcion}>
+- para declarar una funcion se declara una constante de la siguiente forma <info (message) {Aqui va lo que hace la funcion}>
 - Para importar una clase se declara una constante con la igualdad requiere y la ruta como en este ejemplo <const Pokemon = require('./pokemon')>
 - Param exportar un archivo JS se hace con la siguiente ruta <module.export = clase (pokemon) en este caso
 Estas son algunas recomendaciones dadas para reforzar el uso de JS
  1. [JS Mozilla](https://developer.mozilla.org/es/docs/Learn/JavaScript)
  2. [Eloquent JS](https://eloquentjavascript.net/)
  3. [Rediscovering JS](https://pragprog.com/titles/ves6/rediscovering-javascript/)
+                                                                            
+###Semana 2
+
+Empezamos viendo elementos basicos de JS, objetos de JS, y objetos, modularizacion nuevamente y lo importante que es hacer pruebas unitarias para los proyectos respondiendo a la pregunta Como sabes que tu software funciona? R - Porque se hicieron pruebas que demuestran que este funciona. Haciendo ver ahora lo importante que es la calidad de software para formar lo profesional que debe ser un developer, empezando viendo una forma de trabajo con pruebas que utilizamos en Node JS que es Jest: una plataforma desarrollada por facebook, istalando la dependencia facilmente con un comando en la terminal, ademas de la forma de inicializar un proyecto en node JS de igual forma con un comando en la terminal dandose asi una estructura basica para crear un proyecto que es la siguiente:
+
+- Crear carpeta inicial
+- Iniciar Git
+     - Git init
+- Iniciar proyecto NodeJS
+     - npm install
+- Crear archivo en la carpeta principal .gitignore
+     - Dentro escribir **/node_modules | los ** es para verificar que funcione en todas las rutas | el archivo modules no se versiona   
+- Instalar Jest                                                                         
+     - install --save-dev Jest 
+- Crear carpetas test y app en la ruta principal
+     - Dentro van mas archivos como services, models, y en ellos van los archivos .js en el caso de app, y .test.js en el caso de test 
+- Crear un archivo index.js
+- En la carpeta package.json en el apartado scripts se necesitan cambiar los comandos
+     - start: "node index.js"   ---> con esto en la terminar ejecuentando npm start se ejecuta el archivo index.js
+     - test: "./node_modules/jest/bin/jest" ---> al ejecutar npm test se ejecutarian las pruebas, actualmente e visto que funciona tambien (test: "jest") 
